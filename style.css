@@ -1,0 +1,229 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('assets/images/1308785.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    #home .eighthimage {
+        width: 60px; /* Two images per row with spacing */
+        height: 60px;
+    }
+    .email a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        margin-top: 30px;
+    }
+    body {
+        overflow-y: scroll;
+    }
+ 
+}
+body {
+    overflow-y: scroll;
+}
+
+.topnav {
+  text-align: center;
+  background-color: #171717;
+  overflow: hidden;
+  height: 75px;
+  width: 100%;
+  word-spacing: 2px;
+}
+
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+  border-radius: 50px;
+  color: white;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+}
+.bottomnav {
+  background-color: #171717;
+  overflow: hidden;
+  height: 75px;
+  word-spacing: 2px;
+  margin-top: 20px;
+  width: 425px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the element within its container */
+  border-radius: 10px;
+}
+
+.bottomnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bottomnav a:hover {
+  text-decoration: underline;
+  border-radius: 50px;
+  color: white;
+}
+
+.bottomnav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+}
+
+.grey-box {
+    width: 400px;
+    height: 100px;
+    background-color: #171717; 
+    margin: 0 auto; 
+    margin-top: 250px; 
+    border-radius: 10px; 
+    position: relative; /* Add relative positioning to the grey-box container */
+}
+
+.grey-box img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+#discord-status {
+    position: absolute; /* Change to absolute positioning */
+    width: 20px;
+    height: 20px;
+    left: 60px;
+    top: 60px; /* Adjust as needed for vertical position */
+}
+
+#discord-textname {
+    font-size: 16px; 
+    position: absolute; 
+    left: 130px; 
+    top: 10px; 
+    font-size: 24px;
+    color: white;
+}
+
+#discord-textbio {
+    font-size: 16px; 
+    position: absolute; 
+    left: 130px; 
+    top: 60px; 
+    font-size: 16px;
+    color: white;
+}
+#aboutmetext {
+    font-size: 24px;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+}
+#home {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+
+#home .eighthimage {
+    display: block;
+    width: 60px; /* Set a specific width for each image */
+    height: 60px; /* Set a specific height for each image */
+    margin: 10px; /* Add spacing between images */
+}
+
+.homee {
+  display: flex;
+  justify-content: center;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#Resources { 
+  padding:25px;
+  color:#FFFFFF;
+  text-align: center;
+  text-decoration: none; 
+}
+#Resources a {
+  text-decoration: underline;
+  color: white;
+}
+
+.email a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline; /* Underline the text */
+    color: black; /* Set the text color to black */
+}
+
+#projects { 
+  padding:25px;
+  color:#FFFFFF; 
+  text-align: center;
+  text-decoration: none; 
+}
+#projects a {
+  text-decoration: underline;
+  color: white;
+}
+
+
+
+
